@@ -1,0 +1,29 @@
+
+import processing.core.*;
+
+public class GradientShading extends PApplet {
+
+	public void settings() {
+		size(500, 500);
+	}
+
+	public void draw() {
+		int size = 10;
+		colorMode(RGB, 500);
+
+		for (int i = 0; i < 50; i++) {
+			for (int j = 0; j < 50; j++) {
+				fill((j + i) * 5);
+				stroke((j + i) * 5);
+				rect(j * 10, i * 10, size, size);
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		String[] processingArgs = { "Rainbow Strip" };
+		GradientShading pattern = new GradientShading();
+		PApplet.runSketch(processingArgs, pattern);
+	}
+
+}

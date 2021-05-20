@@ -1,0 +1,14 @@
+
+import processing.core.*;
+
+public class Bubbles extends PApplet {
+	
+	
+	
+	public static void main(String[] args) {
+		String[] processingArgs = { "Ball Constrained in a Square" };
+		ConstrainedBall animation = new ConstrainedBall();
+		PApplet.runSketch(processingArgs, animation);
+	}
+
+}
