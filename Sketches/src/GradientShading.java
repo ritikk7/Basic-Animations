@@ -26,5 +26,4 @@ public class GradientShading extends PApplet {
 		GradientShading sketch = new GradientShading();
 		PApplet.runSketch(processingArgs, sketch);
 	}
-
 }
