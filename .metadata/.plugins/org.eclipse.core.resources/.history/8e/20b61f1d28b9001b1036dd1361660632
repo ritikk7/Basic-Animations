@@ -1,6 +1,0 @@
-
-import processing.core.*;
-
-public class analogClock extends PApplet {
-	
-}

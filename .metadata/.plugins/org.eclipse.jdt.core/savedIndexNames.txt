@@ -1,7 +1,0 @@
-INDEX VERSION 1.131+D:\Coding Projects\Basic Animations\.metadata\.plugins\org.eclipse.jdt.core
-3402493697.index
-2127907294.index
-1220292758.index
-4200552185.index
-554866393.index
-2616190138.index
